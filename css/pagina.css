@@ -1,0 +1,130 @@
+	/**{
+		font-family: "Trebuchet MS", Tahoma, Arial;*/
+		}
+	
+
+	body{
+		background-color: #CDD6D0;
+		background-image: url(http://yesofcorsa.com/wp-content/uploads/2015/10/4814_guitar.jpg);
+		background-repeat:no-repeat;*/
+
+
+
+	}
+
+	
+		}
+		body{
+			margin:0;
+		}
+
+			/*ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				background-color:#080808;
+				overflow: hidden;
+				position: fixed;
+				top: 0;*/
+			}
+			li{
+			float: right;
+			}
+
+			/*li a{
+				display: block;
+				text-decoration: none;
+				color: #777;
+				padding: 60px 20px;*/
+			}
+
+			/*li a:hover, #active{
+				background-color: #D60000;
+				color: white;*/
+			}
+			/*h1{
+				color: #333;
+				text-align: center;*/
+			}
+			/*img{
+				width: 150px;
+				margin: 0 auto;*/
+
+			}
+
+			h1{
+				color: white;
+
+			}
+
+			footer{
+				color: white;
+				margin-top: 400px;
+				border: gray solid 1px;
+				border-color: gray;
+				background-color: black;
+				text-align: center;
+
+			}
+
+#imagem{
+		border: 1px solid black;
+	  	padding: 5px;
+	  	width: 150px;
+	  	margin-top: 400px;
+	  	align-self: 
+
+		}
+
+		#atributos{
+			color: white;
+		}
+
+		#guitar{
+			color: white;
+		}
+
+		h2{
+		text-align: center;
+		}
+
+		#texto{
+			font-size: 30px;
+		}
+		
+		#preco:hover{
+			color: white;
+			text-align: center;
+			opacity: 1s;
+
+		}
+
+		#image-whats{
+			margin-top: 150px;
+			align-self: center;
+		}
+
+		#number{
+			color: white;
+			float: left;
+		}
+
+		#pag-princi{
+			color: blue;
+		}
+
+		#frm{
+			color: white;
+			text-align: center;
+		}
+
+		#dados-pessoais{
+			color: white;
+		}
+
+		#lg{
+			margin-top: -50px;
+			text-align: center;
+			color: red;
+		}

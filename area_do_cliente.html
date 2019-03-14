@@ -1,0 +1,182 @@
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TecMusic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+	<title>Cadastro</title>
+
+</head>
+
+<body>
+	<div class="col-md-12">
+		<div class="navbar-wrapper">
+			<div class="container">
+
+				<nav class="navbar navbar-inverse navbar-static-top">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">TecMusic</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="quem somos.html">Quem Somos</a></li>
+								<li><a href="contato.html">Contato</a></li>
+								
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Área do Cliente <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="login.html">Login</a></li>
+										<li><a href="area_do_cliente.html">Cadastro</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+			</div>
+		</div>
+
+
+	</div>
+
+	<br><br><br><br>
+
+	<!--Tela de Login-->
+
+	<div class="col-md-12">
+		<div class="container">
+			<div class="page-header">
+				<h1>Cadastro de Cliente</h1>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Cadastro</h3>
+					<form>
+
+						<div class="form-group">
+							<label for="nome">Nome</label>
+							<input type="text" id="nome" class="form-control">
+						</div>
+
+						
+						<div class="radio">
+						</div>
+						<label for="sexo">Sexo</label></br>
+						<select name="sexo" id="sexo">
+							<option>Masculino</option>
+							<option>Feminino</option>
+						</select><br><br>
+
+						<div class="form-group">
+							<label for="rg">RG</label><br>
+							<input type="text" name="rg" id="rg"><br><br>
+
+							
+
+							<div class="form-group">
+								<label for="email">E-Mail</label>
+								<input type="email" id="email" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label for="senha">Senha</label>
+								<input type="password" id="senha" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label for="senha">Confirme a sua senha</label>
+								<input type="password" id="senha" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<legend>Endereço</legend>
+								<label for="rua">Rua</label><br>
+								<input type="text" name="rua" id="rua"><br><br>
+
+								<label for="num">Número</label><br>
+								<input type="text" name="num" id="num"><br><br>
+
+								<label for="comlemento">Complemento</label><br>
+								<input type="text" name="rua" id="rua"><br><br>
+
+								<label for="cidade">Cidade</label><br>
+								<input type="text" name="cidade" id="cidade"><br><br>
+
+								<label for="estado">Estado</label><br>
+								<select name="estado" id="estado">
+									<option>ES</option>
+									<option>MG</option>
+									<option>RJ</option>
+									<option>SP</option>
+								</select><br><br>
+
+								<div class="form-group">
+									<label for="cep">Cep</label><br>
+									<input type="text" name="cep" id="cep"><br><br>
+								</div>
+
+								<div class="form-group">
+									<fieldset>
+										<legend>Situação</legend>
+										<label for="situacao">Situação</label><br>
+										<select name="situacao" id="situacao">
+											<option>Ativo</option>
+											<option>Inativo</option>
+											<option>Pendente</option>
+										</select></fieldset>
+									</div>
+									<div class="form-group">
+										<fieldset>
+											<legend>Contato</legend>
+											<label for="email">E-mail</label><br>
+											<input type="email" name="email" id="email"><br><br>
+
+											<label for="telcelddd">Tel. Celular</label><br>
+											<input type="tel" name="telcelddd" id="telcelddd">
+											<input type="tel" name="telcelNumero" id="telcelNumero"><br><br>
+
+											<label for="telfixoddd">Tel. Fixo</label><br>
+											<input type="telfixoddd" name="telcelddd" id="telcelddd">
+											<input type="telfixoddd" name="telfixoNumero" id="telfixoNumero"><br><br>
+										</fieldset>
+									</div>
+									
+								</div>
+
+								
+								
+							</form>	
+
+						</div>
+						<button type="submit" class="btn btn-primary">Cadastrar</button>
+
+
+
+
+						
+						
+
+
+
+
+
